@@ -5,8 +5,9 @@ agrupados por topics (categorias).
 
 import json
 import os
-import subprocess
 import sys
+import urllib.request
+import urllib.error
 from pathlib import Path
 
 # Mapeamento de topic → categoria exibida no README
@@ -40,54 +41,39 @@ END_MARKER = "<!-- REPOS:END -->"
 
 
 def get_repos():
-    """Busca todos os repos do usuário via gh CLI."""
-    cmd = [
-        "gh", "api",
-        f"/users/{USERNAME}/repos",
-        "--paginate",
-        "-q", ".[]",
-        "--jq", ".",
-    ]
-
-    # Se tiver GH_TOKEN, usa pra ver repos privados também
-    env = os.environ.copy()
+    """Busca todos os repos do usuário via API do GitHub."""
     token = os.environ.get("GH_TOKEN")
-    if token:
-        # Com token, usa endpoint autenticado que retorna privados
-        cmd = [
-            "gh", "api",
-            "/user/repos",
-            "--paginate",
-            "-q", ".",
-            "-f", "per_page=100",
-            "-f", "type=all",
-        ]
-        env["GH_TOKEN"] = token
+    all_repos = []
+    page = 1
 
-    result = subprocess.run(
-        cmd, capture_output=True, text=True, env=env
-    )
+    while True:
+        if token:
+            # Autenticado: retorna públicos + privados
+            url = f"https://api.github.com/user/repos?per_page=100&type=all&page={page}"
+        else:
+            # Sem token: só públicos
+            url = f"https://api.github.com/users/{USERNAME}/repos?per_page=100&page={page}"
 
-    if result.returncode != 0:
-        print(f"Erro ao buscar repos: {result.stderr}", file=sys.stderr)
-        sys.exit(1)
+        req = urllib.request.Request(url)
+        req.add_header("Accept", "application/vnd.github.v3+json")
+        req.add_header("User-Agent", "profile-readme-updater")
+        if token:
+            req.add_header("Authorization", f"Bearer {token}")
 
-    # gh api --paginate retorna arrays concatenados, precisamos parsear
-    raw = result.stdout.strip()
-    if not raw:
-        return []
+        try:
+            with urllib.request.urlopen(req) as resp:
+                repos = json.loads(resp.read().decode())
+        except urllib.error.HTTPError as e:
+            print(f"Erro ao buscar repos (HTTP {e.code}): {e.read().decode()}", file=sys.stderr)
+            sys.exit(1)
 
-    # Tenta parsear como JSON array direto
-    try:
-        repos = json.loads(raw)
-        if isinstance(repos, dict):
-            repos = [repos]
-        return repos
-    except json.JSONDecodeError:
-        # gh --paginate pode concatenar múltiplos arrays
-        # ex: [{...}][{...}] → precisamos juntar
-        fixed = raw.replace("][", ",")
-        return json.loads(fixed)
+        if not repos:
+            break
+
+        all_repos.extend(repos)
+        page += 1
+
+    return all_repos
 
 
 def categorize_repos(repos):
@@ -97,6 +83,10 @@ def categorize_repos(repos):
     for repo in repos:
         # Pula o repo do próprio perfil e forks
         if repo["name"] == USERNAME or repo.get("fork", False):
+            continue
+
+        # Filtra só repos do usuário (quando autenticado, /user/repos retorna orgs também)
+        if repo.get("owner", {}).get("login", "").lower() != USERNAME.lower():
             continue
 
         topics = repo.get("topics", [])

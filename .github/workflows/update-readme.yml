@@ -22,6 +22,7 @@ jobs:
       - name: Update README
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          PYTHONIOENCODING: utf-8
         run: python scripts/update_readme.py
 
       - name: Commit and push if changed

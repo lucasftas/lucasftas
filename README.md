@@ -11,7 +11,7 @@ Desenvolvedor focado em automação, broadcast e ferramentas com IA.
 <!-- REPOS:START -->
 ### 🎬 Broadcast & Streaming
 
-- [**vmix-layer-control**](https://github.com/lucasftas/vmix-layer-control) — Extensão Chrome para controle visual de layers e multiview ao vivo no vMix — grid de botões, editor de layers com SplitView Engine e integração Companion · `JavaScript`
+- [**vmix-layer-control**](https://github.com/lucasftas/vmix-layer-control) — Extensão Chrome para controle visual de layers e multiview ao vivo no vMix — grid de botões, editor de layers e integração Companion · `JavaScript`
 
 ### 🤖 IA & Transcrição
 

@@ -11,8 +11,7 @@ Desenvolvedor focado em automação, broadcast e ferramentas com IA.
 <!-- REPOS:START -->
 ### 🎬 Broadcast & Streaming
 
-- [**guid-panel-for-broadcast**](https://github.com/lucasftas/guid-panel-for-broadcast) — Extensão Chrome estilo Stream Deck para vMix — multi-instância, autodiscovery de rede e integração Companion · `JavaScript`
-- [**customize-input-layout-vmix**](https://github.com/lucasftas/customize-input-layout-vmix) — Extensão Chrome para customizar layout de inputs do vMix via API local · `HTML`
+- [**vmix-layer-control**](https://github.com/lucasftas/vmix-layer-control) — Extensão Chrome para controle visual de layers e multiview ao vivo no vMix — grid de botões, editor de layers com SplitView Engine e integração Companion · `JavaScript`
 
 ### 🤖 IA & Transcrição
 

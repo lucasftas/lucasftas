@@ -1,5 +1,3 @@
-<img src="banner.gif" width="325px" align="right">
-
 # Olá, eu sou o Lucas 👋
 
 Desenvolvedor focado em automação, broadcast e ferramentas com IA.

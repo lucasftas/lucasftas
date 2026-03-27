@@ -24,12 +24,12 @@ Desenvolvedor focado em automação, broadcast e ferramentas com IA.
 
 ### 📷 Foto & Mídia
 
-- [**hof-photo-manager**](https://github.com/lucasftas/hof-photo-manager) — Organizador de fotos clínicas — detecta cartões SD automaticamente, agrupa por timestamp EXIF e organiza em pastas estruturadas · `Python`
+- [**hof-photo-manager**](https://github.com/lucasftas/hof-photo-manager) — Organizador de fotos clínicas — detecta cartões SD automaticamente, agrupa por timestamp EXIF e organiza em pastas estruturadas · `HTML`
 - [**SonyIngestPro**](https://github.com/lucasftas/SonyIngestPro) — Ferramenta de ingestão de mídia para câmeras Sony · `Python`
 
 ### 📦 Outros
 
-- [**sony-ingest-pro-v2**](https://github.com/lucasftas/sony-ingest-pro-v2) — Sem descrição · `C#`
+- [**scripts-for-adobe**](https://github.com/lucasftas/scripts-for-adobe) — Scripts JSX para Adobe Premiere Pro e After Effects · `JavaScript`
 <!-- REPOS:END -->
 
 ---

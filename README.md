@@ -13,8 +13,8 @@ Desenvolvedor focado em automação, broadcast e ferramentas com IA.
 
 ### 🤖 IA & Transcrição
 
-- [**whats-GPU**](https://github.com/lucasftas/whats-GPU) — Transcreva áudios do WhatsApp Web localmente usando GPU NVIDIA — Extensão Chrome + App Companion · `Python`
 - [**auto-transcript-gpu**](https://github.com/lucasftas/auto-transcript-gpu) — Transcrição automática com GPU local para Windows — faster-whisper, monitoramento de pastas, gerenciamento de VRAM, pré-fetch do Google Drive e modo cluster LAN · `Python`
+- [**whats-GPU**](https://github.com/lucasftas/whats-GPU) — Transcreva áudios do WhatsApp Web localmente usando GPU NVIDIA — Extensão Chrome + App Companion · `Python`
 - [**auto-transcript-local-ia**](https://github.com/lucasftas/auto-transcript-local-ia) — Transcrição automática de vídeos com Whisper local — Tauri + React, monitoramento de pastas e suporte a Google Drive · `TypeScript`
 
 ### 🛠️ Ferramentas & Utilitários

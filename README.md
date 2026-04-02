@@ -29,8 +29,8 @@ Desenvolvedor focado em automação, broadcast e ferramentas com IA.
 
 ### 📦 Outros
 
-- [**scripts-for-adobe**](https://github.com/lucasftas/scripts-for-adobe) — Scripts JSX para Adobe Premiere Pro e After Effects · `JavaScript`
 - [**dng-to-jpg-or-png**](https://github.com/lucasftas/dng-to-jpg-or-png) — Conversor de DNG para JPG/PNG com interface gráfica · `Python`
+- [**scripts-for-adobe**](https://github.com/lucasftas/scripts-for-adobe) — Scripts JSX para Adobe Premiere Pro e After Effects · `JavaScript`
 <!-- REPOS:END -->
 
 ---

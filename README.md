@@ -13,24 +13,11 @@ Desenvolvedor focado em automação, broadcast e ferramentas com IA.
 
 ### 🤖 IA & Transcrição
 
-- [**auto-transcript-gpu**](https://github.com/lucasftas/auto-transcript-gpu) — Transcrição automática com GPU local para Windows — faster-whisper, monitoramento de pastas, gerenciamento de VRAM, pré-fetch do Google Drive e modo cluster LAN · `Python`
 - [**whats-GPU**](https://github.com/lucasftas/whats-GPU) — Transcreva áudios do WhatsApp Web localmente usando GPU NVIDIA — Extensão Chrome + App Companion · `Python`
-- [**auto-transcript-local-ia**](https://github.com/lucasftas/auto-transcript-local-ia) — Transcrição automática de vídeos com Whisper local — Tauri + React, monitoramento de pastas e suporte a Google Drive · `TypeScript`
-
-### 🛠️ Ferramentas & Utilitários
-
-- [**youtube-chat-extractor**](https://github.com/lucasftas/youtube-chat-extractor) — Extrator de chat do YouTube — baixa mensagens de vídeos/lives e exporta para .txt · `Python`
-- [**gdrive-footage-checker-and-mover**](https://github.com/lucasftas/gdrive-footage-checker-and-mover) — Verificador e movedor de arquivos entre Google Drive e armazenamento local para videomakers · `Python`
-
-### 📷 Foto & Mídia
-
-- [**hof-photo-manager**](https://github.com/lucasftas/hof-photo-manager) — Organizador de fotos clínicas — detecta cartões SD automaticamente, agrupa por timestamp EXIF e organiza em pastas estruturadas · `HTML`
-- [**SonyIngestPro**](https://github.com/lucasftas/SonyIngestPro) — Ferramenta de ingestão de mídia para câmeras Sony · `Python`
 
 ### 📦 Outros
 
 - [**dng-to-jpg-or-png**](https://github.com/lucasftas/dng-to-jpg-or-png) — Conversor de DNG para JPG/PNG com interface gráfica · `Python`
-- [**scripts-for-adobe**](https://github.com/lucasftas/scripts-for-adobe) — Scripts JSX para Adobe Premiere Pro e After Effects · `JavaScript`
 <!-- REPOS:END -->
 
 ---

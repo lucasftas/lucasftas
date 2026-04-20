@@ -9,7 +9,8 @@ Desenvolvedor focado em automação, broadcast e ferramentas com IA.
 <!-- REPOS:START -->
 ### 🎬 Broadcast & Streaming
 
-- [**vmix-layer-control**](https://github.com/lucasftas/vmix-layer-control) — Extensão Chrome para controle visual de layers e multiview ao vivo no vMix — grid de botões, editor de layers e integração Companion · `JavaScript`
+- [**app-presentation-png-vmix**](https://github.com/lucasftas/app-presentation-png-vmix) — Presenter view pra palestrantes em lives com vMix — slide atual + próximo sincronizado, controlado via tray icon do Windows. · `Python`
+- [**chrome-extension-vmix-layer-control**](https://github.com/lucasftas/chrome-extension-vmix-layer-control) — Extensão Chrome para controle visual de layers e multiview ao vivo no vMix — grid de botões, editor de layers e integração Companion · `JavaScript`
 
 ### 🤖 IA & Transcrição
 
@@ -17,7 +18,7 @@ Desenvolvedor focado em automação, broadcast e ferramentas com IA.
 
 ### 📦 Outros
 
-- [**dng-to-jpg-or-png**](https://github.com/lucasftas/dng-to-jpg-or-png) — Conversor de DNG para JPG/PNG com interface gráfica · `Python`
+- [**file-converter-dng-to-jpg-or-png**](https://github.com/lucasftas/file-converter-dng-to-jpg-or-png) — Conversor de DNG para JPG/PNG com interface gráfica · `Python`
 <!-- REPOS:END -->
 
 ---

@@ -18,6 +18,7 @@ Desenvolvedor focado em automação, broadcast e ferramentas com IA.
 
 ### 📦 Outros
 
+- [**app-prproj-to-path-copy**](https://github.com/lucasftas/app-prproj-to-path-copy) — Consolide todas as midias de um projeto do Adobe Premiere em uma pasta so — com a janela de copia nativa do Windows. Python + Tkinter + Shell.Application.CopyHere. · `Python`
 - [**file-converter-dng-to-jpg-or-png**](https://github.com/lucasftas/file-converter-dng-to-jpg-or-png) — Conversor de DNG para JPG/PNG com interface gráfica · `Python`
 <!-- REPOS:END -->
 

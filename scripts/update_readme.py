@@ -85,6 +85,10 @@ def categorize_repos(repos):
         if repo["name"] == USERNAME or repo.get("fork", False):
             continue
 
+        # Filtra repos privados — README do perfil só exibe públicos
+        if repo.get("private", False):
+            continue
+
         # Filtra só repos do usuário (quando autenticado, /user/repos retorna orgs também)
         if repo.get("owner", {}).get("login", "").lower() != USERNAME.lower():
             continue
@@ -185,6 +189,10 @@ def update_readme(content):
 
 
 def main():
+    # Forçar UTF-8 no stdout (Windows)
+    if sys.stdout.encoding.lower() not in ("utf-8", "utf8"):
+        sys.stdout = open(sys.stdout.fileno(), "w", encoding="utf-8", newline="")
+
     print(f"Buscando repos de {USERNAME}...")
     repos = get_repos()
     print(f"Encontrados {len(repos)} repos.")

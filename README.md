@@ -1,6 +1,21 @@
 # Olá, eu sou o Lucas 👋
 
-Desenvolvedor focado em automação, broadcast e ferramentas com IA.
+Desenvolvedor focado em **automação de broadcast** e **processamento de mídia em GPU**. Construo ferramentas que eliminam tarefas repetitivas do workflow de transmissão ao vivo, edição de vídeo e operações de infraestrutura.
+
+## 🎯 O que eu faço
+
+Meus projetos resolvem problemas reais:
+
+- 🎬 **Capturar feeds isolados** do Google Meet pro vMix sem UI suja
+- 🤖 **Transcrever aulas localmente** com Whisper (não na nuvem, zero custo recorrente)
+- 📁 **Consolidar mídias** de projetos Premiere com 1 clique
+- 🎥 **Controlar câmeras Sony** remotamente via hardware integration
+- ☁️ **Sincronizar terabytes** entre múltiplos serviços (Drive, rclone, Monday.com)
+- ⚡ **Otimizar pipelines** de GPU NVIDIA pra transcrição e encoding
+
+Especialista em **integração de APIs** (Google Workspace, YouTube, Monday.com), **otimização GPU** (Whisper, FFmpeg CUDA), **automação Windows** (PowerShell, .NET), e **entrega profissional** (instaladores, testes, documentação técnica).
+
+**Stack favorito:** Python (prototipagem) → Rust + Tauri (apps polidos) → Chrome Extensions (ubiquidade) → PowerShell (automação Windows)
 
 ---
 

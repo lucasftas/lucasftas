@@ -28,10 +28,6 @@ Especialista em **integração de APIs** (Google Workspace, YouTube, Monday.com)
 - [**app-presentation-png-vmix**](https://github.com/lucasftas/app-presentation-png-vmix) — Presenter view pra palestrantes em lives com vMix — slide atual + próximo sincronizado, controlado via tray icon do Windows. · `Python`
 - [**chrome-extension-vmix-layer-control**](https://github.com/lucasftas/chrome-extension-vmix-layer-control) — Extensão Chrome para controle visual de layers e multiview ao vivo no vMix — grid de botões, editor de layers e integração Companion · `JavaScript`
 
-### 🤖 IA & Transcrição
-
-- [**whats-GPU**](https://github.com/lucasftas/whats-GPU) — Transcreva áudios do WhatsApp Web localmente usando GPU NVIDIA — Extensão Chrome + App Companion · `Python`
-
 ### 🛠️ Ferramentas & Utilitários
 
 - [**app-prproj-to-path-copy**](https://github.com/lucasftas/app-prproj-to-path-copy) — Consolide todas as midias de um projeto do Adobe Premiere em uma pasta so — com a janela de copia nativa do Windows. Python + Tkinter + Shell.Application.CopyHere. · `Python`

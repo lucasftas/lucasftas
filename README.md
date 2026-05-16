@@ -24,9 +24,9 @@ Especialista em **integração de APIs** (Google Workspace, YouTube, Monday.com)
 <!-- REPOS:START -->
 ### 🎬 Broadcast & Streaming
 
+- [**app-presentation-png-vmix**](https://github.com/lucasftas/app-presentation-png-vmix) — Presenter view pra palestrantes em lives com vMix — slide atual + próximo sincronizado, controlado via tray icon do Windows. · `Python`
 - [**chrome-extension-vmix-layer-control**](https://github.com/lucasftas/chrome-extension-vmix-layer-control) — Extensão Chrome para controle visual de layers e multiview ao vivo no vMix — grid de botões, editor de layers e integração Companion · `JavaScript`
 - [**chrome-extension-meet-clean-streaming**](https://github.com/lucasftas/chrome-extension-meet-clean-streaming) — Extensão Chrome que expõe feeds isolados de câmera e slides do Google Meet em split-screen limpo, pronto para captura em vMix / OBS / Wirecast. · `JavaScript`
-- [**app-presentation-png-vmix**](https://github.com/lucasftas/app-presentation-png-vmix) — Presenter view pra palestrantes em lives com vMix — slide atual + próximo sincronizado, controlado via tray icon do Windows. · `Python`
 
 ### 🛠️ Ferramentas & Utilitários
 

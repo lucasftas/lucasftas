@@ -1,42 +1,24 @@
 # Olá, eu sou o Lucas 👋
 
-Desenvolvedor focado em **automação de broadcast** e **processamento de mídia em GPU**. Construo ferramentas que eliminam tarefas repetitivas do workflow de transmissão ao vivo, edição de vídeo e operações de infraestrutura.
+Desenvolvedor focado em **automação de broadcast** e **processamento de mídia em GPU**. Construo ferramentas que eliminam tarefas repetitivas do workflow de transmissão ao vivo, edição de vídeo e operações de infraestrutura — do protótipo em Python ao app polido em Rust.
 
-## 🎯 O que eu faço
+---
 
-Meus projetos resolvem problemas reais:
+### 🎬 Broadcast & Streaming ao vivo
+Automação de produção ao vivo com **vMix**, **OBS** e **Wirecast** — captura de feeds isolados do **Google Meet**, controle visual de layers e multiview, *presenter view* sincronizado, integração com **Bitfocus Companion** e controle remoto de câmeras **Sony** / switchers **ATEM**.
 
-- 🎬 **Capturar feeds isolados** do Google Meet pro vMix sem UI suja
-- 🤖 **Transcrever aulas localmente** com Whisper (não na nuvem, zero custo recorrente)
-- 📁 **Consolidar mídias** de projetos Premiere com 1 clique
-- 🎥 **Controlar câmeras Sony** remotamente via hardware integration
-- ☁️ **Sincronizar terabytes** entre múltiplos serviços (Drive, rclone, Monday.com)
-- ⚡ **Otimizar pipelines** de GPU NVIDIA pra transcrição e encoding
+### 🤖 IA & Processamento em GPU
+Transcrição local com **Whisper** rodando em **GPU NVIDIA** (zero custo de nuvem), encoding acelerado por **FFmpeg CUDA** e otimização de pipelines de mídia para throughput em lote.
 
-Especialista em **integração de APIs** (Google Workspace, YouTube, Monday.com), **otimização GPU** (Whisper, FFmpeg CUDA), **automação Windows** (PowerShell, .NET), e **entrega profissional** (instaladores, testes, documentação técnica).
+### ⚙️ Automação & Apps Desktop
+Automação **Windows** (**PowerShell**, **.NET**), apps desktop em **Rust + Tauri** e **Python + Tkinter**, com entrega profissional: instaladores (**Inno Setup**), testes e documentação técnica.
+
+### 🔌 Integrações & APIs
+Integração de **Google Workspace** (Drive, Docs, Sheets, Slides, Calendar), **YouTube** e **Monday.com**; sincronização de terabytes entre serviços com **rclone** e automações de produtividade ponta a ponta.
+
+### 🧩 Extensões de Browser
+**Chrome Extensions** para estender aplicações web em produção — reverse engineering de APIs internas, *hooks* de runtime e UI sobreposta sem sujar o app host.
+
+---
 
 **Stack favorito:** Python (prototipagem) → Rust + Tauri (apps polidos) → Chrome Extensions (ubiquidade) → PowerShell (automação Windows)
-
----
-
-## 🗂️ Meus Projetos
-
-<!-- REPOS:START -->
-### 🎬 Broadcast & Streaming
-
-- [**app-presentation-png-vmix**](https://github.com/lucasftas/app-presentation-png-vmix) — Presenter view pra palestrantes em lives com vMix — slide atual + próximo sincronizado, controlado via tray icon do Windows. · `Python`
-- [**chrome-extension-vmix-layer-control**](https://github.com/lucasftas/chrome-extension-vmix-layer-control) — Extensão Chrome para controle visual de layers e multiview ao vivo no vMix — grid de botões, editor de layers e integração Companion · `JavaScript`
-- [**chrome-extension-meet-clean-streaming**](https://github.com/lucasftas/chrome-extension-meet-clean-streaming) — Extensão Chrome que expõe feeds isolados de câmera e slides do Google Meet em split-screen limpo, pronto para captura em vMix / OBS / Wirecast. · `JavaScript`
-
-### 🛠️ Ferramentas & Utilitários
-
-- [**app-prproj-to-path-copy**](https://github.com/lucasftas/app-prproj-to-path-copy) — Consolide todas as midias de um projeto do Adobe Premiere em uma pasta so — com a janela de copia nativa do Windows. Python + Tkinter + Shell.Application.CopyHere. · `Python`
-
-### 📷 Foto & Mídia
-
-- [**file-converter-dng-to-jpg-or-png**](https://github.com/lucasftas/file-converter-dng-to-jpg-or-png) — Conversor de DNG para JPG/PNG com interface gráfica · `Python`
-<!-- REPOS:END -->
-
----
-
-⚙️ *Este README é atualizado automaticamente via [GitHub Actions](.github/workflows/update-readme.yml)*

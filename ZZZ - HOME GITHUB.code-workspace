@@ -1,8 +1,34 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "workbench.colorTheme": "Dark Modern",
+    "workbench.colorCustomizations": {
+      "editor.background": "#210306",
+      "editor.foreground": "#ebe0e2",
+      "sideBar.background": "#2e050a",
+      "sideBar.foreground": "#baa1a4",
+      "sideBarSectionHeader.background": "#3a080e",
+      "statusBar.noFolderBackground": "#3a080e",
+      "panel.background": "#210306",
+      "panelTitle.activeForeground": "#ebe0e2",
+      "terminal.background": "#210306",
+      "terminal.foreground": "#ebe0e2",
+      "editorGroupHeader.tabsBackground": "#2e050a",
+      "editorGroupHeader.noTabsBackground": "#210306",
+      "tab.activeBackground": "#4a0d14",
+      "tab.inactiveBackground": "#2e050a",
+      "tab.activeForeground": "#ebe0e2",
+      "tab.border": "#631d25",
+      "tab.activeBorderTop": "#ee2b41",
+      "badge.background": "#ee2b41",
+      "badge.foreground": "#000000",
+      "focusBorder": "#ee2b41",
+      "list.activeSelectionBackground": "#4a0d14",
+      "list.hoverBackground": "#3a080e"
+    }
+  }
 }
